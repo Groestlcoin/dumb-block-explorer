@@ -5,7 +5,7 @@ A trivial block explorer written in a single PHP file.
 
 Demo
 -------
-https://dumb-block-explorer.groestlcoin.org/
+https://www.groestlcoin.org/explorer/
 
 Features
 -------
