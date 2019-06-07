@@ -4,12 +4,12 @@
 ############################
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-  $MAIN_ENDPOINT = "http://127.0.0.1:8332/";
-  $TEST_ENDPOINT = "http://127.0.0.1:18332/";
+  $MAIN_ENDPOINT = "http://127.0.0.1:1441/";
+  $TEST_ENDPOINT = "http://127.0.0.1:17766/";
   define("BASE_URL", "/explorer/");
   define("USE_MOD_REWRITE", true);
   // enable mod rewrite mode to have nice URLs like /block/<hash> instead of index.php?block=<hash>
-  $FOOTER = '<a href="https://github.com/jonasschnelli/dumb-block-explorer">Dumb Block Explorer</a> for Bitcoin Core';
+  $FOOTER = '<a href="https://github.com/Groestlcoin/dumb-block-explorer">Dumb Block Explorer</a> for Groestlcoin Core';
   $TITLE = "Dumb Block Explorer";
 ###### END CONFIG SECTION
   $HTMLTITLE = $TITLE;
@@ -158,7 +158,7 @@ ini_set('display_errors', 1);
     return BASE_URL;
   }
   function btcamount($amount) {
-    return number_format($amount, 8, ".", "'")." BTC";
+    return number_format($amount, 8, ".", "'")." GRS";
   }
 ?>
 <!DOCTYPE html>
@@ -239,7 +239,7 @@ span.text-muted.spent {
 </style>
 </head>
 <body class="bg-light">
-  
+
 <div class="w-100 h-100 p-3 mx-auto flex-column">
   <header class="masthead mb-auto">
     <div class="inner">

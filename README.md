@@ -5,11 +5,11 @@ A trivial block explorer written in a single PHP file.
 
 Demo
 -------
-https://bitcointools.jonasschnelli.ch/explorer/
+https://dumb-block-explorer.groestlcoin.org/
 
 Features
 -------
-* Works wirth Bitcoin Core with enabled REST interface (-rest)
+* Works with Groestlcoin Core with enabled REST interface (-rest)
 * Works with or without txindex
 * Works with pruning
 * Does UTXO lookups
@@ -17,7 +17,7 @@ Features
 Install
 -------
 * Place the `index.php` script into a php enabled http docs directory
-* Run Bitcoin Core with rest and txindex (optional) `-txindex -rest`
+* Run Groestlcoin Core with rest and txindex (optional) `-txindex -rest`
 * Edit the index.php config section
 
 Nice links
